@@ -1,4 +1,4 @@
-# RDRAリバース分析
+# RDRAリバース分析 v0.1.0
 
 あなたは RDRA（Relationship Driven Requirement Analysis）の専門家として、指定されたディレクトリから全9つのダイアグラムを生成し、関係者との合意形成を支援します。
 

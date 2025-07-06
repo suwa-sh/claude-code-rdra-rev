@@ -2,6 +2,9 @@
 
 既存のリポジトリから**RDRAモデルのたたき台**をリバースエンジニアリングする**claude code カスタムスラッシュコマンド**です。
 
+- [RDRA 公式サイト](https://www.rdra.jp/)
+- [claude code カスタムスラッシュコマンド](https://docs.anthropic.com/ja/docs/claude-code/slash-commands#%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%82%B9%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
+
 ## インストール
 
 ```sh
@@ -32,7 +35,7 @@ curl -Lo \
   - 実行イメージ
     - ![](https://share.cleanshot.com/39WKWHw3+)
 
-### 中断してしまった場合の再開
+### 中断からの再開
 
 - `--continue`オプションを追加して実行してください
 
@@ -40,6 +43,7 @@ curl -Lo \
   /rdra-rev --continue ./repo
   ```
 
+  - `docs/rdra-rev/rdra-progress-checklist.md`の進捗に合わせて、処理を再開します。
   - 実行イメージ
     - ![](https://share.cleanshot.com/lJXk59QK+)
 
@@ -88,4 +92,9 @@ curl -Lo \
 git submoduleに含めている「[増田さんのRDRA2.0 図書館システム実装サンプル: system-sekkei/library](https://github.com/system-sekkei/library)」を対象に分析した結果です。
 
 - [分析サマリー: 00-rdra-summary.md](./docs/rdra-rev/00-rdra-summary.md)
-- [結果を転記したRDRAシート](https://docs.google.com/spreadsheets/d/1ycV-aucZ7na0z9yNc7cnx0mm_LKeKxgvvwPuTjXtTgQ)
+- [結果を転記したRDRA定義分析シート](https://docs.google.com/spreadsheets/d/1ycV-aucZ7na0z9yNc7cnx0mm_LKeKxgvvwPuTjXtTgQ)
+
+## 既知の課題
+
+- mermaidの文法エラーになることがある
+- RDRA定義分析シートで不整合が出る
