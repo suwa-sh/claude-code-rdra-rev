@@ -1,0 +1,2 @@
+# claude-code-rdra-rev
+既存のリポジトリからRDRAモデルのたたき台をリバースエンジニアリングするclaude codeカスタムスラッシュコマンド
