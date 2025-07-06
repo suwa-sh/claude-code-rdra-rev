@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(rg:*)",
+      "Bash(grep:*)",
+      "Bash(diff:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(timeout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git stash:*)",
+      "Bash(git tag:*)",
+    ],
+    "deny": ["Bash(curl:*)"]
+  }
+}
