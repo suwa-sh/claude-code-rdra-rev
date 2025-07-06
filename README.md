@@ -7,7 +7,7 @@
 ```sh
 curl -Lo \
   ~/.claude/commands/rdra-rev.md \
-  https://raw.githubusercontent.com/suwa-sh/-sh/claude-code-rdra-rev/refs/heads/main/.claude/commands/rdra-rev.md
+  https://raw.githubusercontent.com/suwa-sh/claude-code-rdra-rev/refs/heads/main/.claude/commands/rdra-rev.md
 ```
 
 ## 利用方法
