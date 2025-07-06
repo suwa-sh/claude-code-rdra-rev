@@ -1,0 +1,3 @@
+[submodule "system-sekkei/library"]
+	path = system-sekkei/library
+	url = https://github.com/system-sekkei/library
