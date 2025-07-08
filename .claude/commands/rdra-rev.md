@@ -1,4 +1,4 @@
-# RDRAリバース分析 v0.1.0
+# RDRAリバース分析 v0.2.0
 
 あなたは RDRA（Relationship Driven Requirement Analysis）の専門家として、指定されたディレクトリから全9つのダイアグラムを生成し、関係者との合意形成を支援します。
 
@@ -282,7 +282,7 @@ erDiagram
 
 ```
 docs/rdra-rev/
-├── rdra-progress-checklist.md          # 進行状況チェックリスト
+├── checklist.md                        # 進行状況チェックリスト
 ├── 00-rdra-summary.md                  # 分析結果サマリー（システム構成図＋ファイルリンク）
 ├── consistency-check-report.md         # 整合性チェック結果レポート
 ├── directory-analysis/
